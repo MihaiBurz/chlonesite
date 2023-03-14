@@ -1,0 +1,311 @@
+.mid-section1 .coloane .formular {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 565px;
+    gap: 1rem;
+}
+
+.mid-section1 .coloane {
+    display:flex;
+    position:relative;
+}
+
+.container {
+    display:flex;
+    justify-content:space-between;
+    min-width: 1080px;
+    margin-right:25px;
+}
+
+.mid-section1{
+    padding: 40px;
+    background-color: rgb(253,253,253);
+    box-shadow : rgba(25, 30, 48, 0.1) 0px 30px 60px 0px;
+}
+
+.mid-section1 .coloane .formular .pov {
+    display:flex;
+    flex-direction: column;
+}
+
+.mid-section1 .coloane .formular .pov input {
+    border-radius: 20px;
+    height: 40px;
+    width:220px;
+    border:1px solid black;
+}
+
+.mid-section1 .coloane .grid-flex .mesajel input{
+    width: 510px;
+    height: 96px;
+    border-radius:20px;
+    padding: 11px 16px;
+    border:1px solid black;
+}
+
+.mid-section1 .coloane .grid-flex .mesajel{
+    margin-top: 30px;
+    display:flex;
+    flex-direction:column;
+}
+
+.mid-section1 .coloane .grid-flex .mesajel label {
+    color: rgba(25, 30, 48, 0.6);
+    font-size: 12px;
+}
+
+.mid-section1 .coloane .grid-flex .check-box1 {
+    width: 170px;
+    height: 46px;
+    margin-top: 1.5rem;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+
+.mid-section1 .coloane .grid-flex .check-box1 input {
+    border: 2px solid red;
+    font-size: 1px;
+    height: 24px;
+    width: 24px;
+    cursor:pointer;
+}
+
+.mid-section1 .coloane .grid-flex .check-box1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mid-section1 .coloane .grid-flex .check-box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-section1 .coloane .grid-flex .conditions {
+    margin-top: 1.5rem;
+    display: flex;
+    width:510px;
+}
+
+.mid-section1 .coloane .grid-flex .conditions .input{
+    font-size: 10px;
+    width: 17.5px;
+    height: 17.5px;
+    padding-right:20px;
+    cursor:pointer;
+}
+
+.mid-section1 .coloane .grid-flex .conditions p {
+    font-size:1rem;
+}
+
+.mid-section1 .coloane .grid-flex .conditions p .conditile{
+    color: rgb(0, 135, 104);
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.mid-section1 .coloane .formular .mesajel {
+    display:flex;
+    flex-direction: column;
+}
+
+.mid-section1 .coloane .formular label {
+    color: rgba(25, 30, 48, 0.6);
+    font-size: 12px;
+}
+
+.mid-section1 .coloane .grid-flex .send-button{
+    margin-top:1.5rem;
+    width: 510px;
+}
+
+.mid-section1 .coloane .grid-flex .send-button button{
+    width:100%;
+    height: 49px;
+    border-radius:2.4rem;
+    background-color: rgb(0, 135, 104);
+    cursor:pointer;
+    border:0;
+}
+
+.mid-section1 .coloane .grid-flex .send-button button>p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.mid-section1 .coloane .informatii-generale h3{
+    font-family: 'Asap',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.25;
+    color: rgb(25, 30, 48);
+    width: 504px;
+    font-weight: bold;
+}
+
+.mid-section1 .coloane .informatii-generale p{
+    width: 504px;
+    margin-top: 24px;
+    font-size: 1.13rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.mid-section1 .coloane .informatii-generale p>a{
+    color: rgb(0, 135, 104);
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.mid-section1 .coloane .informatii-generale .numar-tel {
+    margin-top:32px;
+    display:flex;
+    gap: 0.8rem;
+}
+
+.mid-section1 .coloane .informatii-generale .numar-tel h5{
+    padding-top: 6px;
+}
+
+.mid-section1 .coloane .informatii-generale .mail{
+    margin-top:24px;
+    display: flex;
+    gap:0.8rem;
+}
+
+.mid-section1 .coloane .informatii-generale .mail img{
+    width: 36px;
+    height: 36px;
+}
+
+.mid-section1 .coloane .informatii-generale .mail h5{
+    padding-top: 6px;
+}
+
+.mid-section1 .coloane .informatii-generale .adress{
+    margin-top:24px;
+    display: flex;
+    gap:0.8rem;
+    height:48.56px;
+}
+
+.mid-section1 .coloane .informatii-generale .adress .detalii p{
+    color: rgba(25, 30, 48, 0.6);
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.mid-section1 .coloane .informatii-generale .adress img{
+    width: 36px;
+    height:36px;
+}
+
+.mid-section1 .coloane .informatii-generale .program {
+    margin-top:24px;
+    display: flex;
+    gap:0.8rem;
+    height:48.56px;
+}
+
+.mid-section1 .coloane .informatii-generale .program img {
+    width:36px;
+    height:36px;
+}
+
+.mid-section1 .coloane .informatii-generale .program h5{
+    padding-top: 6px;
+}
+
+.top-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9.6rem 0;
+}
+
+.bg-contacte {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    top: -7.6rem;
+    z-index: -1;
+    background-image: url('https://www.itschool.ro/_next/static/media/background.d5722ffa.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* mid section + copii */
+.mid-section1 {
+    border-radius: 1.6rem;
+    margin-top: -80px;
+    height: 33rem;
+    margin-bottom:9.6rem;
+}
+
+.titlu{
+    color: var(--text-color-white);
+}
+
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+}
+
+.third-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.third-section1 .romania img{
+    width:780px;
+    height:563px;
+    margin-bottom:36px;
+}
+
+
+.third-section1 .romania {
+    display:flex;
+    justify-content:center;
+}
+
+.third-section1 .acceleratorul1 p {
+    color: rgba(25, 30, 48, 0.4);
+    display:flex;
+    justify-content: center;
+}
+
+.third-section1 .distantiere {
+    margin: 0 17rem;
+}
+
+.third-section1 .acceleratorul1 h2{
+    margin-top:24px;
+    font-size:2.2rem;
+    margin-bottom: 24px;
+}
+
+.third-section1 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 17rem 0 20rem;
+    gap: 2rem;
+}
+
+.third-section1 .spatiu {
+    height: 140px;
+}
+
+.third-section1 .grid div{
+    gap: 0.8rem;
+    display: flex;
+    align-items:center;
+}
